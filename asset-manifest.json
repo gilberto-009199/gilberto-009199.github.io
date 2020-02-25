@@ -1,0 +1,27 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e6c13fe7.chunk.css",
+    "main.js": "/static/js/main.a3eb36d5.chunk.js",
+    "main.js.map": "/static/js/main.a3eb36d5.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.107bb8ca.js",
+    "runtime-main.js.map": "/static/js/runtime-main.107bb8ca.js.map",
+    "static/js/2.cdfc8306.chunk.js": "/static/js/2.cdfc8306.chunk.js",
+    "static/js/2.cdfc8306.chunk.js.map": "/static/js/2.cdfc8306.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.d1fb0de4d9e12cc4295d044d565ef699.js": "/precache-manifest.d1fb0de4d9e12cc4295d044d565ef699.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.e6c13fe7.chunk.css.map": "/static/css/main.e6c13fe7.chunk.css.map",
+    "static/js/2.cdfc8306.chunk.js.LICENSE.txt": "/static/js/2.cdfc8306.chunk.js.LICENSE.txt",
+    "static/media/Main.css": "/static/media/bg1.c7fdc818.jpg",
+    "static/media/databases2.jpg": "/static/media/databases2.fc599989.jpg",
+    "static/media/globo.png": "/static/media/globo.2f990a83.png",
+    "static/media/globo2.png": "/static/media/globo2.13bc6358.png",
+    "static/media/index.css": "/static/media/segoeui.a1ff5ea4.woff"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.107bb8ca.js",
+    "static/js/2.cdfc8306.chunk.js",
+    "static/css/main.e6c13fe7.chunk.css",
+    "static/js/main.a3eb36d5.chunk.js"
+  ]
+}
