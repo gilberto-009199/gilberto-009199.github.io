@@ -26,7 +26,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-
+#root{
+  overflow: auto;
+  height: auto;
+  display: block;
+}
 .button{
     --background-color: #2941ec;
     background-color: #070b4a;
@@ -42,6 +46,17 @@ code {
   background-color:#000000;
   color:#fff!important;
 }
+a {
+  text-decoration: none;
+}
 a:hover{
   color:#070b4a!important;
+}
+.btn-light{
+  padding: 6px 11px;
+  color: rgba(37, 37, 37, 0.85);
+  border-radius: 4px;
+  border: 1px solid rgba(0,0,0,.15);
+  background-color: transparent;
+  font-weight: 700;
 }

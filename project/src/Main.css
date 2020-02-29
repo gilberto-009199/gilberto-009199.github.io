@@ -48,6 +48,7 @@ div[role="banner"]{
   width:100%;
   height: auto;
   overflow: auto;
+  margin-top: 46px;
 }
 div[role="banner"] .banner-imagem-cortada{
   background-image: url('./assets/img/bg1.jpg');
@@ -68,11 +69,11 @@ div[role="banner"] .banner-painel{
   height: 370px;
 }
 div[role="banner"] .banner-painel-triangulo{
-    height: 370px;
-    width: 216px;
-    transform: skewX(-18deg);
-    margin-left: -61px;
-    background: rgb(244,244,244);
+  height: 370px;
+  width: 216px;
+  transform: skewX(-18deg);
+  margin-left: -61px;
+  background: rgb(244,244,244);
   background: -moz-linear-gradient(0deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 100%);
   background: -webkit-linear-gradient(0deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 100%);
   background: linear-gradient(0deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 100%);
@@ -83,11 +84,26 @@ div[role="banner"] .banner-painel-triangulo{
 div[role="banner"] .banner-painel-conteudo{
   position: absolute;
   z-index: 100;
-  background: rgb(244,244,244);
-  background: -moz-linear-gradient(0deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 100%);
-  background: -webkit-linear-gradient(0deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 100%);
-  background: linear-gradient(0deg, rgba(244,244,244,1) 0%, rgba(255,255,255,1) 100%);
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#f4f4f4",endColorstr="#ffffff",GradientType=1);
+  width: 40%;
+  text-align:center;
+}
+.banner-painel-conteudo a {
+
+}
+.banner-painel-conteudo-imagens{
+  display:flex;
+  padding:7px;
+  flex-wrap: wrap;
+}
+.banner-painel-conteudo-imagens-item {
+  flex:1;
+  text-align: center;
+}
+.banner-painel-conteudo-imagens-item img{
+  width:124px;
+  height:124px;
+  border-radius: 100px;
+  margin: 7px;
 }
 div[role="main"]{
   background-color:white;
@@ -101,7 +117,7 @@ div[role="main"] section{
 div[role="main"] section article {
 
 }
-div[role="main"] section article h3{
+div[role="main"] section article h3, div[role="main"] section h3{
   text-align:center;
   font-size:1.4em;
 }
@@ -174,4 +190,37 @@ div[role="main"] section article h3{
   background-color: rgba(37, 37, 37, 0.85);
   padding: 7px 16px;
   border-radius: 5px;
+}
+.section-foruns-project{
+  background-color: #e2eeed;
+  background-image:url('./assets/img/bg6.png') cover;
+  background-repeat: no-repeat;
+  background-position: 50%;
+  padding-top:32px;
+}
+.section-foruns{
+  display:flex;
+  text-align:center;
+  flex-wrap: wrap;
+  max-width:90%;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+.section-foruns-item{
+  flex:1;
+}
+.section-foruns-item img{
+  min-width:124px;
+  max-height:120px;
+}
+.section-project{
+
+}
+div.chatbot{
+  position:fixed;
+  bottom:0;
+  right:0;
+  background:aliceblue;
+
 }
