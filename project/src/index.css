@@ -43,11 +43,12 @@ code {
   background-color:#eee;
 }
 .button:hover{
-  background-color:#000000;
+  background-color:#969393;
   color:#fff!important;
 }
 a {
   text-decoration: none;
+      color: inherit;
 }
 a:hover{
   color:#070b4a!important;

@@ -228,7 +228,7 @@ div[role="main"] section article h3, div[role="main"] section h3{
   max-height:120px;
 }
 .section-project{
-  padding-bottom: 27px;
+  padding-bottom: 15px;
 }
 .section-project:before{
     content: "";
