@@ -9,6 +9,17 @@ import ImageForumStackOverflow from './assets/img/foruns/logo-stackoverflow.png'
 import ImageForumWikipedia from './assets/img/foruns/logo-wikipedia.png';
 import profile from './assets/img/0.jpeg';
 
+
+//Image Projetos
+import ImageMiniERP      from './assets/img/vsd6inZl.png';
+import ImageBugbunny     from './assets/img/cDAj2PSl.png';
+import ImageMobshare     from './assets/img/xMh0NLGl.png';
+import ImageJAgenda      from './assets/img/WfA8lYal.png';
+import ImageJAcademia	 from './assets/img/0gh2TEnl.png';
+import ImageJAcademiaWeb from './assets/img/OPwuzbbl.png';
+import ImageSite		 from './assets/img/5k2FRkHl.png';
+import ImageForca        from './assets/img/7SGW7xgl.png';
+
 import Menu from './Menu';
 import Banner from './Banner';
 
@@ -105,16 +116,10 @@ class Main extends Component{
                   <div className="section-project">
                         <div className="ProjectBox">
                             <div className="itemprojeto">
-                                <a href="https://github.com/gilberto-009199/Web" className="btn">GitHub</a>
-                                <a href="https://mobshare.000webhostapp.com" className="btn">Site</a>
+                                <a target="_blank" href="https://github.com/gilberto-009199/Web" className="btn">GitHub</a>
+                                <a target="_blank" href="https://mobshare.000webhostapp.com" className="btn">Site</a>
                                 <div className="img">
-                                    <svg class="heading-icon">
-                                      <circle fill="#B9F4BC" cx="33" cy="33" r="33"/>
-                                      <path d="M38.4 15l1-3h1l1.2 3c.2.2.5.2.7.3l2.2-2.5 1 .4-.2 3.3c.2 0 .3.2.5.4l3-1.5.7.7-1.4 3 .5.5h3.3l.4.8-2.5 2.2c0 .2 0 .5.2.7l3 1v1l-3 1.2-.3.8 2.5 2-.4 1-3.3-.2-.4.7 1.5 2.8-.7.7-3-1.4c0 .2-.4.4-.6.5l.2 3.3-1 .4-2-2.5c-.3 0-.6 0-1 .2l-1 3h-1l-1-3c-.2-.2-.5-.2-.8-.3l-2 2.5-1-.4.2-3.3-.7-.4-2.8 1.5-.7-.7 1.4-3c-.2 0-.4-.4-.5-.6l-3.3.2-.4-1 2.5-2c0-.3 0-.6-.2-1l-3-1v-1l3-1c.2-.2.2-.4.3-.7l-2.5-2.2.4-1 3.3.2c0-.2.2-.3.4-.5l-1.5-3 .7-.7 3 1.4.5-.5v-3.3l.8-.4 2.2 2.5s.5 0 .7-.2z" fill="#6ED69A"/>
-                                      <circle fill="#B9F4BC" cx="40" cy="25" r="2"/>
-                                      <path d="M21.6 26.8L19 25l-1.3 1 1.4 3c0 .2-.3.4-.5.6l-3-.8-1 1.4 2.4 2.3-.4.8-3.2.3-.3 1.6 3 1.4v.8l-3 1.4.4 1.6 3.2.3c0 .3.2.5.3.8l-2.4 2.3.8 1.4 3-.8.7.6-1.3 3 1.3 1 2.6-1.8c.3 0 .5.3.8.4l-.3 3.2 1.6.6 2-2.7c.2 0 .5 0 .7.2l1 3h1.5l1-3c0-.2.4-.2.7-.3l2 2.7 1.4-.6-.4-3.2c.3 0 .5-.3.8-.4L37 49l1.3-1-1.4-3c0-.2.3-.4.5-.6l3 .8 1-1.4-2.4-2.3.4-.8 3.2-.3.3-1.6-3-1.4v-.8l3-1.4-.4-1.6-3.2-.3c0-.3-.2-.5-.3-.8l2.4-2.3-.8-1.4-3 .8-.7-.6 1.3-3-1.3-1-2.6 1.8c-.3 0-.5-.3-.8-.4l.3-3.2-1.6-.6-2 2.7c-.2 0-.5 0-.7-.2l-1-3h-1.5l-1 3c0 .2-.4.2-.7.3l-2-2.7-1.4.6.4 3.2c-.3 0-.5.3-.8.4z" fill="#1BB978"/>
-                                      <circle fill="#B9F4BC" cx="28" cy="37" r="3"/>
-                                    </svg>
+                                    <img src={ImageMobshare} />
                                 </div>
                                 <div className="desc">
                                     <h4>Mobshare</h4>
@@ -147,16 +152,10 @@ class Main extends Component{
 
 
                             <div className="itemprojeto">
-                                <a href="https://github.com/gilberto-009199/Desktop-1" className="btn">GitHub</a>
-                                <a href="gitpod.io#github.com/gilberto-009199/minierp" className="btn">Site</a>
+                                <a target="_blank" href="https://github.com/gilberto-009199/Desktop-1" className="btn">GitHub</a>
+                                <a target="_blank" href="https://gitpod.io#github.com/gilberto-009199/minierp" className="btn">Site</a>
                                 <div className="img">
-                                    <svg class="heading-icon">
-                                      <circle fill="#B9F4BC" cx="33" cy="33" r="33"/>
-                                      <path d="M38.4 15l1-3h1l1.2 3c.2.2.5.2.7.3l2.2-2.5 1 .4-.2 3.3c.2 0 .3.2.5.4l3-1.5.7.7-1.4 3 .5.5h3.3l.4.8-2.5 2.2c0 .2 0 .5.2.7l3 1v1l-3 1.2-.3.8 2.5 2-.4 1-3.3-.2-.4.7 1.5 2.8-.7.7-3-1.4c0 .2-.4.4-.6.5l.2 3.3-1 .4-2-2.5c-.3 0-.6 0-1 .2l-1 3h-1l-1-3c-.2-.2-.5-.2-.8-.3l-2 2.5-1-.4.2-3.3-.7-.4-2.8 1.5-.7-.7 1.4-3c-.2 0-.4-.4-.5-.6l-3.3.2-.4-1 2.5-2c0-.3 0-.6-.2-1l-3-1v-1l3-1c.2-.2.2-.4.3-.7l-2.5-2.2.4-1 3.3.2c0-.2.2-.3.4-.5l-1.5-3 .7-.7 3 1.4.5-.5v-3.3l.8-.4 2.2 2.5s.5 0 .7-.2z" fill="#6ED69A"/>
-                                      <circle fill="#B9F4BC" cx="40" cy="25" r="2"/>
-                                      <path d="M21.6 26.8L19 25l-1.3 1 1.4 3c0 .2-.3.4-.5.6l-3-.8-1 1.4 2.4 2.3-.4.8-3.2.3-.3 1.6 3 1.4v.8l-3 1.4.4 1.6 3.2.3c0 .3.2.5.3.8l-2.4 2.3.8 1.4 3-.8.7.6-1.3 3 1.3 1 2.6-1.8c.3 0 .5.3.8.4l-.3 3.2 1.6.6 2-2.7c.2 0 .5 0 .7.2l1 3h1.5l1-3c0-.2.4-.2.7-.3l2 2.7 1.4-.6-.4-3.2c.3 0 .5-.3.8-.4L37 49l1.3-1-1.4-3c0-.2.3-.4.5-.6l3 .8 1-1.4-2.4-2.3.4-.8 3.2-.3.3-1.6-3-1.4v-.8l3-1.4-.4-1.6-3.2-.3c0-.3-.2-.5-.3-.8l2.4-2.3-.8-1.4-3 .8-.7-.6 1.3-3-1.3-1-2.6 1.8c-.3 0-.5-.3-.8-.4l.3-3.2-1.6-.6-2 2.7c-.2 0-.5 0-.7-.2l-1-3h-1.5l-1 3c0 .2-.4.2-.7.3l-2-2.7-1.4.6.4 3.2c-.3 0-.5.3-.8.4z" fill="#1BB978"/>
-                                      <circle fill="#B9F4BC" cx="28" cy="37" r="3"/>
-                                    </svg>
+                                    <img src={ImageMiniERP}/>
                                 </div>
                                 <div className="desc">
                                     <h4>MiniERP</h4>
@@ -183,16 +182,10 @@ class Main extends Component{
 
                             
                             <div className="itemprojeto">
-                                <a href="https://github.com/gilberto-009199/ProjetoSenaiPHP400" className="btn">GitHub</a>
-                                <a href="https://bugsbonny.000webhostapp.com/stalls.php" className="btn">Site</a>
+                                <a target="_blank" href="https://github.com/gilberto-009199/ProjetoSenaiPHP400" className="btn">GitHub</a>
+                                <a target="_blank" href="https://bugsbonny.000webhostapp.com/stalls.php" className="btn">Site</a>
                                 <div className="img">
-                                    <svg class="heading-icon">
-                                      <circle fill="#B9F4BC" cx="33" cy="33" r="33"/>
-                                      <path d="M38.4 15l1-3h1l1.2 3c.2.2.5.2.7.3l2.2-2.5 1 .4-.2 3.3c.2 0 .3.2.5.4l3-1.5.7.7-1.4 3 .5.5h3.3l.4.8-2.5 2.2c0 .2 0 .5.2.7l3 1v1l-3 1.2-.3.8 2.5 2-.4 1-3.3-.2-.4.7 1.5 2.8-.7.7-3-1.4c0 .2-.4.4-.6.5l.2 3.3-1 .4-2-2.5c-.3 0-.6 0-1 .2l-1 3h-1l-1-3c-.2-.2-.5-.2-.8-.3l-2 2.5-1-.4.2-3.3-.7-.4-2.8 1.5-.7-.7 1.4-3c-.2 0-.4-.4-.5-.6l-3.3.2-.4-1 2.5-2c0-.3 0-.6-.2-1l-3-1v-1l3-1c.2-.2.2-.4.3-.7l-2.5-2.2.4-1 3.3.2c0-.2.2-.3.4-.5l-1.5-3 .7-.7 3 1.4.5-.5v-3.3l.8-.4 2.2 2.5s.5 0 .7-.2z" fill="#6ED69A"/>
-                                      <circle fill="#B9F4BC" cx="40" cy="25" r="2"/>
-                                      <path d="M21.6 26.8L19 25l-1.3 1 1.4 3c0 .2-.3.4-.5.6l-3-.8-1 1.4 2.4 2.3-.4.8-3.2.3-.3 1.6 3 1.4v.8l-3 1.4.4 1.6 3.2.3c0 .3.2.5.3.8l-2.4 2.3.8 1.4 3-.8.7.6-1.3 3 1.3 1 2.6-1.8c.3 0 .5.3.8.4l-.3 3.2 1.6.6 2-2.7c.2 0 .5 0 .7.2l1 3h1.5l1-3c0-.2.4-.2.7-.3l2 2.7 1.4-.6-.4-3.2c.3 0 .5-.3.8-.4L37 49l1.3-1-1.4-3c0-.2.3-.4.5-.6l3 .8 1-1.4-2.4-2.3.4-.8 3.2-.3.3-1.6-3-1.4v-.8l3-1.4-.4-1.6-3.2-.3c0-.3-.2-.5-.3-.8l2.4-2.3-.8-1.4-3 .8-.7-.6 1.3-3-1.3-1-2.6 1.8c-.3 0-.5-.3-.8-.4l.3-3.2-1.6-.6-2 2.7c-.2 0-.5 0-.7-.2l-1-3h-1.5l-1 3c0 .2-.4.2-.7.3l-2-2.7-1.4.6.4 3.2c-.3 0-.5.3-.8.4z" fill="#1BB978"/>
-                                      <circle fill="#B9F4BC" cx="28" cy="37" r="3"/>
-                                    </svg>
+                                    <img src={ImageBugbunny} />
                                 </div>
                                 <div className="desc">
                                     <h4>BugBunny</h4>
@@ -223,8 +216,8 @@ class Main extends Component{
                                 </div>
                             </div>
                             <div className="itemprojeto">
-                                <a href="https://github.com/gilberto-009199/Desktop-1" className="btn">GitHub</a>
-                                <a href="https://github.com/pushcodecontato/Desktop/releases/download/0.2/mobshare-win32-ia32.zip" className="btn">Download</a>
+                                <a target="_blank" href="https://github.com/gilberto-009199/Desktop-1" className="btn">GitHub</a>
+                                <a target="_blank" href="https://github.com/pushcodecontato/Desktop/releases/download/0.2/mobshare-win32-ia32.zip" className="btn">Download</a>
                                 <div className="img">
                                     <svg class="heading-icon">
                                       <circle fill="#B9F4BC" cx="33" cy="33" r="33"/>
@@ -256,6 +249,130 @@ class Main extends Component{
 								    </div>
                                 </div>
                             </div>
+
+							 <div className="itemprojeto">
+                                <a target="_blank" href="https://github.com/gilberto-009199/JAgenda" className="btn">GitHub</a>
+                                <a target="_blank" href="https://github.com/gilberto-009199/JAgenda/archive/v1.zip" className="btn">Download</a>
+                                <div className="img">
+                                    <img src={ImageJAgenda} />
+                                </div>
+                                <div className="desc">
+                                    <h4>Agenda Swing Java</h4>
+                                    <h5>Java + JPA </h5>
+                                    <div className="progress">
+                                       <div className="progress-bar color-1" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{width:"60%"}}>
+                                          <span>60%</span>
+                                       </div>
+								    </div>
+								    <h5> Java Swing </h5>
+                                    <div className="progress">
+                                       <div className="progress-bar color-2" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{width:"40%"}}>
+                                          <span>40%</span>
+                                       </div>
+								    </div>
+                                </div>
+                            </div>
+							
+
+							<div className="itemprojeto">
+                                <a target="_blank" href="https://github.com/gilberto-009199/JAcademia" className="btn">GitHub</a>
+                                <a target="_blank" href="https://github.com/gilberto-009199/JAcademia/archive/v1.zip" className="btn">Download</a>
+                                <div className="img">
+                                    <img src={ImageJAcademia} />
+                                </div>
+                                <div className="desc">
+                                    <h4>Academia Swing Java</h4>
+                                    <h5> Java + JPA </h5>
+                                    <div className="progress">
+                                       <div className="progress-bar color-1" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{width:"50%"}}>
+                                          <span>50%</span>
+                                       </div>
+								    </div>
+								    <h5> Java Swing </h5>
+                                    <div className="progress">
+                                       <div className="progress-bar color-2" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{width:"50%"}}>
+                                          <span>50%</span>
+                                       </div>
+								    </div>
+                                </div>
+                            </div>
+
+                            <div className="itemprojeto">
+                                <a target="_blank" href="https://github.com/gilberto-009199/JAgendaWeb" className="btn">GitHub</a>
+                                <div className="img">
+                                    <img src={ImageJAcademiaWeb} />
+                                </div>
+                                <div className="desc">
+                                    <h4>JAcademia Web Java</h4>
+                                    <h5> JSP </h5>
+                                    <div className="progress">
+                                       <div className="progress-bar color-3" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{width:"60%"}}>
+                                          <span>60%</span>
+                                       </div>
+								    </div>
+								    <h5> Html e Boostrap </h5>
+                                    <div className="progress">
+                                       <div className="progress-bar color-5" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{width:"40%"}}>
+                                          <span>40%</span>
+                                       </div>
+								    </div>
+                                </div>
+                            </div>
+							
+							
+							<div className="itemprojeto">
+                                <a target="_blank" href="https://github.com/gilberto-009199/JAgendaWeb" className="btn">GitHub</a>
+                                <a target="_blank" href="https://cypercode.herokuapp.com" className="btn">Site</a>
+                                <div className="img">
+                                    <img src={ImageSite} />
+                                </div>
+                                <div className="desc">
+                                    <h4>Modelo de Site CyperCode</h4>
+                                    <h5> HTML </h5>
+                                    <div className="progress">
+                                       <div className="progress-bar color-4" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{width:"20%"}}>
+                                          <span>20%</span>
+                                       </div>
+								    </div>
+								    <h5> CSS </h5>
+                                    <div className="progress">
+                                       <div className="progress-bar color-3" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{width:"40%"}}>
+                                          <span>50%</span>
+                                       </div>
+								    </div>
+								    <h5> JavaScript + JQuery </h5>
+                                    <div className="progress">
+                                       <div className="progress-bar color-2" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{width:"40%"}}>
+                                          <span>30%</span>
+                                       </div>
+								    </div>
+                                </div>
+                            </div>
+
+							<div className="itemprojeto">
+                                <a target="_blank" href="https://github.com/gilberto-009199/SenaiForca16" className="btn">GitHub</a>
+                                <a target="_blank" href="https://github.com/gilberto-009199/SenaiForca16/archive/v1.zip" className="btn">Download</a>
+                                <div className="img">
+                                    <img src={ImageForca} />
+                                </div>
+                                <div className="desc">
+                                    <h4>Aplicativo Forca Jogo</h4>
+                                    <h5> Java </h5>
+                                    <div className="progress">
+                                       <div className="progress-bar color-4" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{width:"60%"}}>
+                                          <span>60%</span>
+                                       </div>
+								    </div>
+								    <h5> XML Layout </h5>
+                                    <div className="progress">
+                                       <div className="progress-bar color-3" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{width:"40%"}}>
+                                          <span>40%</span>
+                                       </div>
+								    </div>
+                                </div>
+                            </div>
+
+
                         </div>
                   </div>
                </section>

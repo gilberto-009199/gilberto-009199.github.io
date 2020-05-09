@@ -36,6 +36,7 @@ header nav[role="navigation"]{
 header nav[role="navigation"] div[role="itemmenu"]{
   display:inline-block;
   min-width:20%;
+  padding: 0px 5px 0px 5px;
   text-align: center;
   border-top:2px solid transparent;
 }
@@ -113,8 +114,8 @@ div[role="banner"] .banner-painel-conteudo{
   text-align: center;
 }
 .banner-painel-conteudo-imagens-item img{
-  width:124px;
-  height:124px;
+  max-width:182px;
+  max-height:182px;
   border-radius: 100px;
   margin: 7px;
 }
@@ -136,6 +137,7 @@ div[role="main"] section article h3, div[role="main"] section h3{
 }
 .container-atribuicoes{
   display: flex;
+  flex-wrap: wrap;
 }
 .container-atribuicoes .conteiner-atribuicoes-item{
   flex:1;
@@ -167,9 +169,10 @@ div[role="main"] section article h3, div[role="main"] section h3{
   color:white;
 }
 .section-descricao-conteudo{
-  position:absolute;
+  position:relative;
   width:100%;
   display:flex;
+  z-index: 2;
 }
 .section-descricao-conteudo-text{
   flex:2;
@@ -197,12 +200,14 @@ div[role="main"] section article h3, div[role="main"] section h3{
   overflow:auto;
 }
 .section-mobile-text{
-  width: 800px;
-  display: block;
-  margin: 7px auto 7px auto;
-  background-color: rgba(37, 37, 37, 0.85);
-  padding: 7px 16px;
-  border-radius: 5px;
+    width: auto;
+    min-width: 200px;
+    max-width: 800px;
+    display: block;
+    margin: 7px auto 7px auto;
+    background-color: rgba(37, 37, 37, 0.85);
+    padding: 7px 16px;
+    border-radius: 5px;
 }
 .section-foruns-project{
   background-color: #e2eeed;
@@ -222,10 +227,12 @@ div[role="main"] section article h3, div[role="main"] section h3{
 }
 .section-foruns-item{
   flex:1;
+  min-width: 200px;
 }
 .section-foruns-item img{
   min-width:124px;
   max-height:120px;
+  max-width: 100%;
 }
 .section-project{
   padding-bottom: 15px;
@@ -235,7 +242,7 @@ div[role="main"] section article h3, div[role="main"] section h3{
     position: absolute;
     display: block;
     width: 100%;
-    height: 100%;
+    height: 145%;
     z-index: 1;
     /* top: 0; */
     transform: skewY(-4deg);
@@ -247,4 +254,73 @@ div.chatbot{
   right:0;
   background:aliceblue;
 
+}
+@media  (max-width: 500px){
+  .section-project:before{
+    height:310%;
+  }
+}
+
+@media  (max-width: 600px){
+  .section-project:before{
+    height:280%;
+  }
+}
+
+@media  (max-width: 767px) {
+  
+  div[role="banner"] .banner-painel,div[role="banner"] .banner-imagem-cortada,div[role="banner"] .banner-painel-conteudo{
+    width: 100%;
+    display: block;
+  }
+  .banner-painel-conteudo {
+    width: 100%;
+    position: initial;
+    height: auto;
+    display: block;
+  }
+  .banner-painel-conteudo-imagens{
+    padding: 0px;
+  }
+
+  div[role="banner"] .banner-painel-triangulo{
+    display:none;
+  }
+  
+  .banner-painel-conteudo-imagens-item img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .section-project:before{
+    height:310%;
+  }
+}
+
+
+@media (min-width: 768px) {
+  
+  .banner-painel-conteudo-imagens-item img {
+    width: 86px;
+    height: 86px;
+  }
+  .section-project:before{
+    height:200%;
+  }
+
+}
+@media (min-width: 992px) {
+  .banner-painel-conteudo-imagens-item img{
+    width:110px;
+    height:110px;
+  }
+  .section-project:before{
+    height:150%;
+  }
+}
+@media (min-width: 1200px) {
+  .banner-painel-conteudo-imagens-item img{
+    width:124px;
+    height:124px;
+  }
 }
