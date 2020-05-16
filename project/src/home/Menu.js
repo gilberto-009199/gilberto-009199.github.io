@@ -17,7 +17,7 @@ class Menu extends Component{
                       <a href="#" >Home</a>
                     </div>
                     <div role="itemmenu">
-                      <a href="#">Blog</a>
+                      <a href="https://gilberto-tec.gitbook.io/blog/">Blog</a>
                     </div>
                   </nav>
               </header>
