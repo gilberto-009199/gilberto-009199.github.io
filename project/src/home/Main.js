@@ -152,17 +152,17 @@ class Main extends Component{
 
 
                             <div className="itemprojeto">
-                                <a target="_blank" href="https://github.com/gilberto-009199/Desktop-1" className="btn">GitHub</a>
+                                <a target="_blank" href="https://github.com/gilberto-009199/minierp" className="btn">GitHub</a>
                                 <a target="_blank" href="https://gitpod.io#github.com/gilberto-009199/minierp" className="btn">Site</a>
                                 <div className="img">
                                     <img src={ImageMiniERP}/>
                                 </div>
                                 <div className="desc">
                                     <h4>MiniERP</h4>
-                                    <h5>Nodejs</h5>
+                                    <h5>Spring Boot</h5>
                                     <div className="progress">
-                                       <div className="progress-bar color-1" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{width:"60%"}}>
-                                          <span>60%</span>
+                                       <div className="progress-bar color-1" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{width:"50%"}}>
+                                          <span>50%</span>
                                        </div>
 								    </div>
 								    <h5>HTML CSS</h5>
@@ -171,10 +171,10 @@ class Main extends Component{
                                           <span>15%</span>
                                        </div>
 								    </div>
-								    <h5>JQuery UI</h5>
+								    <h5>React.js</h5>
                                     <div className="progress">
-                                       <div className="progress-bar color-3" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{width:"5%"}}>
-                                          <span>15%</span>
+                                       <div className="progress-bar color-3" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{width:"35%"}}>
+                                          <span>35%</span>
                                        </div>
 								    </div>
                                 </div>
