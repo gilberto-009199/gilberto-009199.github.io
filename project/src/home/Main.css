@@ -47,6 +47,9 @@ header nav[role="navigation"] div[role="itemmenu"] a{
   color: #2d2d2d;
   white-space: nowrap;
   text-decoration: unset;
+
+  width: 100%;
+  display: block;
  
   color:#eee;
 }

@@ -10,7 +10,7 @@ import Home from './home/Main';
 class Main extends Component {
 
   componentDidMount(){
-     console.log("hellow")
+     
      $('nav div[role="itemmenu"]').mouseenter(function(){
            $(this).find('a').shuffleLetters();
      })
