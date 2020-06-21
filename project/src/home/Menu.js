@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React,{Component} from 'react';
 import logo from './assets/img/logo_azul_icon.png';
 
@@ -9,7 +10,7 @@ class Menu extends Component{
             <>
               <header>
                   <div className="logo">
-                    <img  src={logo}/>
+                    <img  alt="logo" src={logo}/>
                     Voyager
                   </div>
                   <nav role="navigation" aria-label="Main">

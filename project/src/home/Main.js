@@ -1,3 +1,4 @@
+/* eslint-disable */
 import React,{Component} from 'react';
 
 import Image from './assets/img/databases2.jpg';
@@ -40,7 +41,7 @@ class Main extends Component{
 
                         <div className="conteiner-atribuicoes-item">
 
-                          <img src={ImageGLobo2} />
+                          <img alt="Globo" src={ImageGLobo2} />
 
                           Developer Web Full Stack
 
@@ -48,7 +49,7 @@ class Main extends Component{
 
                         <div className="conteiner-atribuicoes-item">
 
-                          <img src={ImageGLobo} />
+                          <img alt="DevOps" src={ImageGLobo} />
 
                           DevOps
 
@@ -56,7 +57,7 @@ class Main extends Component{
 
                         <div className="conteiner-atribuicoes-item">
 
-                          <img src={Image} />
+                          <img alt="Linux" src={Image} />
 
                           Linux 
 
@@ -72,12 +73,11 @@ class Main extends Component{
                        <div className="section-descricao-conteudo-text">
                               <p>A primeira coisa que eu gostaria de dizer é ‘muito obrigado’. Aos meus professores do stackoverfow, Mozilla(Mdn), w3schools, CISCO e 
                               a uns velhos amigos como Edsger Dijkstra, Richard Matthew Stallman e linus que permitiram ferramentas como Gimp e meu amado Debian e Manjaro existirém.
-                              Bem esse site e o blog em anexo contém a essencia da minha personalidade e de uma boa e consagrada serie chamada Star trek: Voyager que
-                              ilustra a vida de trabalho nesse seculo, um grupo de pessoas sozinhas longe de casa(Escola) fazendo aliados e infelizmente inimigos também enquanto
-                              continuam sua jornada de descobertas pessoais e ciêntificas(No meu caso TI). </p>
+                              Bem esse site e o blog em anexo contém as bases que eu fui e vou encontrando na minha busca por
+                              me tornar um programador melhor. </p>
                        </div>
                        <div className="section-descricao-conteudo-image">
-                              <img src={profile}/>
+                              <img alt="Imagem do meu rosto" src={profile}/>
                        </div>
                   </div>
                </section>
@@ -97,18 +97,18 @@ class Main extends Component{
                   <h3>Acompanhe as minhas contribuições :</h3>
                   <div className="section-foruns">
                     <div className="section-foruns-item">
-                        <a href="#">
-                           <img src={ImageForumVivaoLinux}/>
+                        <a href="https://www.vivaolinux.com.br/comunidades/userview.php?login=Vida!=Palco">
+                           <img alt="Comunidade VivaoLinux" src={ImageForumVivaoLinux}/>
                         </a>
                     </div>
                     <div className="section-foruns-item">
                         <a href="https://stackoverflow.com/users/12253435/gil?tab=profile">
-                          <img src={ImageForumStackOverflow}/>
+                          <img alt="Comunidade StackOverflow" src={ImageForumStackOverflow}/>
                         </a>
                     </div>
                     <div className="section-foruns-item">
                         <a href="https://pt.wikipedia.org/wiki/Especial:Contribui%C3%A7%C3%B5es/Tel_front">
-                           <img src={ImageForumWikipedia} />
+                           <img alt="Comunidade Wikipedia" src={ImageForumWikipedia} />
                         </a>
                     </div>
                   </div>
@@ -119,7 +119,7 @@ class Main extends Component{
                                 <a target="_blank" href="https://github.com/gilberto-009199/Web" className="btn">GitHub</a>
                                 <a target="_blank" href="https://mobshare.000webhostapp.com" className="btn">Site</a>
                                 <div className="img">
-                                    <img src={ImageMobshare} />
+                                    <img alt="Imagem do projeto" src={ImageMobshare} />
                                 </div>
                                 <div className="desc">
                                     <h4>Mobshare</h4>
@@ -155,7 +155,7 @@ class Main extends Component{
                                 <a target="_blank" href="https://github.com/gilberto-009199/minierp" className="btn">GitHub</a>
                                 <a target="_blank" href="https://gitpod.io#github.com/gilberto-009199/minierp" className="btn">Site</a>
                                 <div className="img">
-                                    <img src={ImageMiniERP}/>
+                                    <img alt="Imagem do projeto" src={ImageMiniERP}/>
                                 </div>
                                 <div className="desc">
                                     <h4>MiniERP</h4>
@@ -185,7 +185,7 @@ class Main extends Component{
                                 <a target="_blank" href="https://github.com/gilberto-009199/ProjetoSenaiPHP400" className="btn">GitHub</a>
                                 <a target="_blank" href="https://bugsbonny.000webhostapp.com/stalls.php" className="btn">Site</a>
                                 <div className="img">
-                                    <img src={ImageBugbunny} />
+                                    <img alt="Imagem do projeto" src={ImageBugbunny} />
                                 </div>
                                 <div className="desc">
                                     <h4>BugBunny</h4>
@@ -254,7 +254,7 @@ class Main extends Component{
                                 <a target="_blank" href="https://github.com/gilberto-009199/JAgenda" className="btn">GitHub</a>
                                 <a target="_blank" href="https://github.com/gilberto-009199/JAgenda/archive/v1.zip" className="btn">Download</a>
                                 <div className="img">
-                                    <img src={ImageJAgenda} />
+                                    <img alt="Imagem do projeto" src={ImageJAgenda} />
                                 </div>
                                 <div className="desc">
                                     <h4>Agenda Swing Java</h4>
@@ -278,7 +278,7 @@ class Main extends Component{
                                 <a target="_blank" href="https://github.com/gilberto-009199/JAcademia" className="btn">GitHub</a>
                                 <a target="_blank" href="https://github.com/gilberto-009199/JAcademia/archive/v1.zip" className="btn">Download</a>
                                 <div className="img">
-                                    <img src={ImageJAcademia} />
+                                    <img alt="Imagem do projeto" src={ImageJAcademia} />
                                 </div>
                                 <div className="desc">
                                     <h4>Academia Swing Java</h4>
@@ -300,7 +300,7 @@ class Main extends Component{
                             <div className="itemprojeto">
                                 <a target="_blank" href="https://github.com/gilberto-009199/JAgendaWeb" className="btn">GitHub</a>
                                 <div className="img">
-                                    <img src={ImageJAcademiaWeb} />
+                                    <img alt="Imagem do projeto" src={ImageJAcademiaWeb} />
                                 </div>
                                 <div className="desc">
                                     <h4>JAcademia Web Java</h4>
@@ -324,7 +324,7 @@ class Main extends Component{
                                 <a target="_blank" href="https://github.com/gilberto-009199/JAgendaWeb" className="btn">GitHub</a>
                                 <a target="_blank" href="https://cypercode.herokuapp.com" className="btn">Site</a>
                                 <div className="img">
-                                    <img src={ImageSite} />
+                                    <img alt="Imagem do projeto" src={ImageSite} />
                                 </div>
                                 <div className="desc">
                                     <h4>Modelo de Site CyperCode</h4>
@@ -353,7 +353,7 @@ class Main extends Component{
                                 <a target="_blank" href="https://github.com/gilberto-009199/SenaiForca16" className="btn">GitHub</a>
                                 <a target="_blank" href="https://github.com/gilberto-009199/SenaiForca16/archive/v1.zip" className="btn">Download</a>
                                 <div className="img">
-                                    <img src={ImageForca} />
+                                    <img alt="Imagem do projeto" src={ImageForca} />
                                 </div>
                                 <div className="desc">
                                     <h4>Aplicativo Forca Jogo</h4>

@@ -5,7 +5,7 @@
  * @url			http://tutorialzine.com/2011/09/shuffle-letters-effect-jquery/
  * @license		MIT License
  */
-
+/* eslint-disable */
 export default function($){
 	
 	$.fn.shuffleLetters = function(prop){
