@@ -42,10 +42,13 @@ class Main extends Component{
               }
           });
     }
-    sendMessage(){
+    sendMessage(isEnter){
         //console.log(this.state.form.input)
+
         let menssagem = this.state.form.input;
         if(!this.state.isSend){
+            
+            if(!(isEnter == 'Enter') && isEnter != undefined) return;
 
             this.setState(state => {
                   const menssages = [...state.menssages,
@@ -80,6 +83,7 @@ class Main extends Component{
                         },
                       };
                     });
+                    $('.menssages').animate({scrollTop: document.body.scrollHeight},"fast");
             })
        }else console.log("Dado bloqueado")
     }
@@ -95,6 +99,9 @@ class Main extends Component{
                             <div className="header">
                                 <button onClick={ ()=>{ this.setState({chat:{show:!this.state.chat.show}}) } }>Fechar</button>
                             </div>
+                            <div className="loader" data-disable={ !this.state.isSend }>
+                                Carregando aguarde...
+                            </div>
                             <div className="menssages">
                                 {
                                     this.state.menssages.map(function(item,index){
@@ -107,7 +114,7 @@ class Main extends Component{
                                 }
                             </div>
                             <div className="formchat">
-                               <input onChange={this.ChangeInput} value={this.state.form.input}/>
+                               <input onChange={this.ChangeInput} onKeyUp={(e)=>this.sendMessage(e.key)} value={this.state.form.input}/>
                                <button onClick={()=>this.sendMessage()}>
                                  Enviar
                                </button>
