@@ -5,6 +5,8 @@ import React,{ Component } from 'react';
 import $ from './jquery';
 
 import Home from './home/Main';
+import Chat from './chat/Main';
+import ImageAvatar from './assets/avatar/avatarRostoAcenandoSemFundo.png';
 
 
 class Main extends Component {
@@ -18,9 +20,7 @@ class Main extends Component {
   render(){
         return (
           <>
-            <div className="chatbot">
-                  Chat
-            </div>
+           <Chat/>
 
             <Home/>
             <footer>

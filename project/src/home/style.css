@@ -1,3 +1,6 @@
+div[data-disable="true"]{
+    display:none;
+}
 .ProjectBox {
     position: relative;
     display: flex;
