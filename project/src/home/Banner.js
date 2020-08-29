@@ -20,19 +20,19 @@ class Banner extends Component{
 
                             <div className="banner-painel-conteudo-imagens">
                                   <div className="banner-painel-conteudo-imagens-item">
-                                        <img src={ImageJava} /> 
+                                        <img alt="java" src={ImageJava} /> 
                                   </div>
                                   <div className="banner-painel-conteudo-imagens-item">
-                                        <img src={ImageNodejs} />
+                                        <img alt="NodeJs" src={ImageNodejs} />
                                   </div>
                                   <div className="banner-painel-conteudo-imagens-item">
-                                        <img src={ImagePHP} />
+                                        <img alt="php" src={ImagePHP} />
                                   </div>
                                   <div className="banner-painel-conteudo-imagens-item">
-                                        <img src={ImageReact} />
+                                        <img alt="React" src={ImageReact} />
                                   </div>
                                   <div className="banner-painel-conteudo-imagens-item">
-                                        <img src={ImageHtml5} />
+                                        <img alt="HTML5" src={ImageHtml5} />
                                   </div>
                             </div>
                             <a className="btn-light" href="mailto:gilberto.tec@vivaldi.net">
