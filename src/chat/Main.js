@@ -48,7 +48,7 @@ class Main extends Component{
         let menssagem = this.state.form.input;
         if(!this.state.isSend){
             
-            if(!(isEnter == 'Enter') && isEnter != undefined) return;
+            if(!(isEnter === 'Enter') && isEnter !== undefined) return;
 
             this.setState(state => {
                   const menssages = [...state.menssages,
@@ -122,7 +122,7 @@ class Main extends Component{
                          </div>
                        
                        <div className="avatar" data-disable={ this.state.chat.show } onClick={ ()=>{ this.setState({chat:{show:!this.state.chat.show}}) } }>
-                          <img src={ImageAvatar}/>
+                          <img src={ImageAvatar} alt="personagem"/>
                           <span className="title">CHATBOT</span>
                           <span className="menssage"> Click em min para tirar duvidas!</span>
                        </div>
