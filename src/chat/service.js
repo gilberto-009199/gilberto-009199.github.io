@@ -15,8 +15,8 @@ class Service{
         return $.ajax({
             type:'get',
             method:'get',
-            //url:'http://localhost:8080/watson',
-            url:'https://enigmatic-tundra-81799.herokuapp.com/watson',
+            url:'http://localhost:8080/watson',
+            //url:'https://enigmatic-tundra-81799.herokuapp.com/watson',
             data: {
                     message,sessionId
                   }
