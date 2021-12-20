@@ -16,4 +16,5 @@ jobs:
           cache: 'npm'
           cache-dependency-path: '**/package-lock.json' # THIS PATTERN did the trick for me.
       - run: npm install --save
+      - run: git config --global user.email "gilberto.tec@vivaldi.net"
       - run: npm run deploy
