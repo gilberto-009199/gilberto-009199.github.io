@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a244fd9e.chunk.css",
+    "main.js": "/static/js/main.57ca888a.chunk.js",
+    "main.js.map": "/static/js/main.57ca888a.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.83c3e0c4.js",
+    "runtime-main.js.map": "/static/js/runtime-main.83c3e0c4.js.map",
+    "static/js/2.90bb61e4.chunk.js": "/static/js/2.90bb61e4.chunk.js",
+    "static/js/2.90bb61e4.chunk.js.map": "/static/js/2.90bb61e4.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.89025f5f9035d4d4f404eb11b978148f.js": "/precache-manifest.89025f5f9035d4d4f404eb11b978148f.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.a244fd9e.chunk.css.map": "/static/css/main.a244fd9e.chunk.css.map",
+    "static/js/2.90bb61e4.chunk.js.LICENSE.txt": "/static/js/2.90bb61e4.chunk.js.LICENSE.txt",
+    "static/media/0gh2TEnl.png": "/static/media/0gh2TEnl.4950ba52.png",
+    "static/media/5k2FRkHl.png": "/static/media/5k2FRkHl.ad7b0a94.png",
+    "static/media/7SGW7xgl.png": "/static/media/7SGW7xgl.a41f6fd8.png",
+    "static/media/OPwuzbbl.png": "/static/media/OPwuzbbl.0c7b1570.png",
+    "static/media/WfA8lYal.png": "/static/media/WfA8lYal.07940935.png",
+    "static/media/avatarRostoAcenandoSemFundo.png": "/static/media/avatarRostoAcenandoSemFundo.71e65dd2.png",
+    "static/media/Main.css": "/static/media/bg6.d2871b5f.png",
+    "static/media/cDAj2PSl.png": "/static/media/cDAj2PSl.69b03337.png",
+    "static/media/databases2.jpg": "/static/media/databases2.fc599989.jpg",
+    "static/media/globo.png": "/static/media/globo.2f990a83.png",
+    "static/media/globo2.png": "/static/media/globo2.13bc6358.png",
+    "static/media/logo-html6.png": "/static/media/logo-html6.3948f64e.png",
+    "static/media/logo-nodejs.jpg": "/static/media/logo-nodejs.3b614a76.jpg",
+    "static/media/logo-php.jpeg": "/static/media/logo-php.18c47a89.jpeg",
+    "static/media/logo-react.png": "/static/media/logo-react.09408643.png",
+    "static/media/logo-stackoverflow.png": "/static/media/logo-stackoverflow.ac44060f.png",
+    "static/media/logo-wikipedia.png": "/static/media/logo-wikipedia.a18d22eb.png",
+    "static/media/index.css": "/static/media/segoeui.a1ff5ea4.woff",
+    "static/media/vsd6inZl.png": "/static/media/vsd6inZl.f401876e.png",
+    "static/media/xMh0NLGl.png": "/static/media/xMh0NLGl.6e54ab20.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.83c3e0c4.js",
+    "static/js/2.90bb61e4.chunk.js",
+    "static/css/main.a244fd9e.chunk.css",
+    "static/js/main.57ca888a.chunk.js"
+  ]
+}
