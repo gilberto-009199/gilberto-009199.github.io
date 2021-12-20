@@ -48,7 +48,7 @@ class Main extends Component{
         let menssagem = this.state.form.input;
         if(!this.state.isSend){
             
-            if(!(isEnter == 'Enter') && isEnter != undefined) return;
+            if(!(isEnter === 'Enter') && isEnter !== undefined) return;
 
             this.setState(state => {
                   const menssages = [...state.menssages,
