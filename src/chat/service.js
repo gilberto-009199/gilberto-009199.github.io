@@ -1,5 +1,6 @@
 import $ from 'jquery';
 
+const webserver = "https://my-chat-conversation.herokuapp.com";
 
 class Service{
 
@@ -15,8 +16,7 @@ class Service{
         return $.ajax({
             type:'get',
             method:'get',
-            url:'http://localhost:8080/watson',
-            //url:'https://enigmatic-tundra-81799.herokuapp.com/watson',
+            url: webserver + '/watson',
             data: {
                     message,sessionId
                   }
