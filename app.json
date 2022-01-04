@@ -1,0 +1,8 @@
+{
+    "name": "Portfolio Node.js",
+    "description": "A barebones Node.js app using Express 4",
+    "repository": "https://github.com/gilberto-009199/gilberto-009199.github.io",
+    "logo": "https://cdn.rawgit.com/heroku/node-js-getting-started/main/public/node.svg",
+    "keywords": ["node", "express", "heroku"],
+    "image": "heroku/nodejs"
+  }
