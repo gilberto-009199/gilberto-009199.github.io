@@ -86,7 +86,7 @@ class Main extends Component{
                   <div className="section-mobile-text">
                         <p> Tecnico de Redes de computadores , apreendi as nuansias dos Windows Servers e Servições de rede , mas me especializei 
                         no desenvolvimento no curso de tecnico de informatica do SENAI e no bacharel de Ciência da computação da faculdade impacta
-                        aonde aprendi e continuo aprendendo sobre o desenvolvimentod e aplicações Web em Java, Nodejs e PHP.</p>
+                        aonde aprendi e continuo aprendendo sobre o desenvolvimento de aplicações Web em Java, Nodejs e PHP.</p>
                         <p> Além disso possuo o conhecimento para criação de aplicações mobile em Java, React Native e Kotlin(Basico).
                          Atualmente estou me focando em python para A.I. e com mais energia firmwares e Sistemas Operacionais.</p>
 
