@@ -114,6 +114,7 @@ class Main extends Component{
                   </div>
                   <h3>Acompanhe os meus projetos :</h3>
                   <div className="section-project">
+                        <div className="before"/>
                         <div className="ProjectBox">
                             <div className="itemprojeto">
                                 <a target="_blank" href="https://github.com/gilberto-009199/Web" className="btn">GitHub</a>

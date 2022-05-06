@@ -240,7 +240,7 @@ div[role="main"] section article h3, div[role="main"] section h3{
 .section-project{
   padding-bottom: 15px;
 }
-.section-project:before{
+.section-project .before{
     content: "";
     position: absolute;
     display: block;
@@ -425,19 +425,6 @@ div.chatbot .avatar .menssage{
   
 }
 
-
-@media  (max-width: 500px){
-  .section-project:before{
-    height:310%;
-  }
-}
-
-@media  (max-width: 600px){
-  .section-project:before{
-    height:280%;
-  }
-}
-
 @media  (max-width: 767px) {
   
   div[role="banner"] .banner-painel,div[role="banner"] .banner-imagem-cortada,div[role="banner"] .banner-painel-conteudo{
@@ -463,9 +450,6 @@ div.chatbot .avatar .menssage{
     height: 100px;
   }
 
-  .section-project:before{
-    height:310%;
-  }
 }
 
 
@@ -475,18 +459,12 @@ div.chatbot .avatar .menssage{
     width: 86px;
     height: 86px;
   }
-  .section-project:before{
-    height:200%;
-  }
 
 }
 @media (min-width: 992px) {
   .banner-painel-conteudo-imagens-item img{
     width:110px;
     height:110px;
-  }
-  .section-project:before{
-    height:150%;
   }
 }
 @media (min-width: 1200px) {

@@ -8,6 +8,7 @@ div[data-disable="true"]{
     height: auto;
     margin: 0px 16px 3px 16px;
     z-index:1;
+    justify-content: center;
 }
 .itemprojeto {
     

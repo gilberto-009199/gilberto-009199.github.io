@@ -15,6 +15,14 @@ class Main extends Component {
      $('nav div[role="itemmenu"]').mouseenter(function(){
            $(this).find('a').shuffleLetters();
      })
+     let projectBox = document.getElementsByClassName("ProjectBox")[0];
+     let beforeDiv = document.getElementsByClassName("before")[0]
+     let height = projectBox.offsetHeight;
+      beforeDiv.style.height = height*1.2+'px';
+     window.addEventListener('resize', function(){
+      let height = projectBox.offsetHeight;
+      beforeDiv.style.height = height*1.2+'px';
+     })
   }
   render(){
         return (
