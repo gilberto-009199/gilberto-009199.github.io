@@ -56,7 +56,7 @@ div[data-disable="true"]{
 }
 .itemprojeto .img svg, .itemprojeto .img img{
     height: 67px;
-    width: 67px;
+    max-width: 77px;
 }
 .itemprojeto .desc{
     float: left;

@@ -20,6 +20,9 @@ class Menu extends Component{
                     <div role="itemmenu">
                       <a href="https://gilberto-tec.gitbook.io/blog/">Blog</a>
                     </div>
+                    <div role="itemmenu">
+                      <a href="https://github.com/gilberto-009199">GitHub</a>
+                    </div>
                   </nav>
               </header>
             </>
