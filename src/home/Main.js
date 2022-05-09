@@ -120,6 +120,113 @@ class Main extends Component {
                   <div className="section-project">
                      <div className="before" />
                      <div className="ProjectBox">
+                     <div className="itemprojeto">
+                           <a target="_blank" href="https://github.com/gilberto-009199/AspenX" className="btn">GitHub</a>
+                           <a target="_blank" href="https://gilberto-009199.github.io/AspenX/" className="btn">Site</a>
+                           <div className="img">
+                              <img alt="Imagem do projeto" src={ImageAspenx} />
+                           </div>
+                           <div className="desc">
+                              <h4>AspenX</h4>
+                              <h5>JavaScript</h5>
+                              <div className="progress">
+                                 <div className="progress-bar color-1" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{ width: "60%" }}>
+                                    <span>70%</span>
+                                 </div>
+                              </div>
+                              <h5>CSS</h5>
+                              <div className="progress">
+                                 <div className="progress-bar color-2" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{ width: "15%" }}>
+                                    <span>15%</span>
+                                 </div>
+                              </div>
+                              <h5>SCSS</h5>
+                              <div className="progress">
+                                 <div className="progress-bar color-3" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{ width: "5%" }}>
+                                    <span>5%</span>
+                                 </div>
+                              </div>
+                              <h5>HTML</h5>
+                              <div className="progress">
+                                 <div className="progress-bar color-4" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{ width: "10%" }}>
+                                    <span>10%</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                        <div className="itemprojeto">
+                           <a target="_blank" href="https://github.com/AspenX-Community/AspenFlorest" className="btn">GitHub</a>
+                           <div className="img">
+                              <img alt="Imagem do projeto" src={ImageAspenFlorest} />
+                           </div>
+                           <div className="desc">
+                              <h4>AspenFlorest</h4>
+                              <h5>Vue</h5>
+                              <div className="progress">
+                                 <div className="progress-bar color-2" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{ width: "40%" }}>
+                                    <span>40%</span>
+                                 </div>
+                              </div>
+                              <h5>Nuxt</h5>
+                              <div className="progress">
+                                 <div className="progress-bar color-4" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{ width: "4%" }}>
+                                    <span>4%</span>
+                                 </div>
+                              </div>
+                              <h5>JavaScript</h5>
+                              <div className="progress">
+                                 <div className="progress-bar color-1" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{ width: "40%" }}>
+                                    <span>40%</span>
+                                 </div>
+                              </div>
+                              <h5>CSS</h5>
+                              <div className="progress">
+                                 <div className="progress-bar color-3" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{ width: "9%" }}>
+                                    <span>9%</span>
+                                 </div>
+                              </div>
+                              <h5>HTML</h5>
+                              <div className="progress">
+                                 <div className="progress-bar color-4" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{ width: "4%" }}>
+                                    <span>4%</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+
+                        <div className="itemprojeto">
+                           <a target="_blank" href="https://www.agropad.com.br/" className="btn">Site</a>
+                           <div className="img">
+                              <img alt="Imagem do projeto" src={ImageAgropad} />
+                           </div>
+                           <div className="desc">
+                              <h4>Agropad</h4>
+                              <h5>Angular</h5>
+                              <div className="progress">
+                                 <div className="progress-bar color-3" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{ width: "40%" }}>
+                                    <span>40%</span>
+                                 </div>
+                              </div>
+                              <h5>C#</h5>
+                              <div className="progress">
+                                 <div className="progress-bar color-4" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{ width: "44%" }}>
+                                    <span>44%</span>
+                                 </div>
+                              </div>
+                              <h5>CSS</h5>
+                              <div className="progress">
+                                 <div className="progress-bar color-3" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{ width: "9%" }}>
+                                    <span>9%</span>
+                                 </div>
+                              </div>
+                              <h5>HTML</h5>
+                              <div className="progress">
+                                 <div className="progress-bar color-4" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{ width: "4%" }}>
+                                    <span>4%</span>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
                         <div className="itemprojeto">
                            <a target="_blank" href="https://github.com/gilberto-009199/Web" className="btn">GitHub</a>
                            <a target="_blank" href="https://mobshare.000webhostapp.com" className="btn">Site</a>
@@ -376,114 +483,6 @@ class Main extends Component {
                               </div>
                            </div>
                         </div>
-                        <div className="itemprojeto">
-                           <a target="_blank" href="https://github.com/gilberto-009199/AspenX" className="btn">GitHub</a>
-                           <a target="_blank" href="https://gilberto-009199.github.io/AspenX/" className="btn">Site</a>
-                           <div className="img">
-                              <img alt="Imagem do projeto" src={ImageAspenx} />
-                           </div>
-                           <div className="desc">
-                              <h4>AspenX</h4>
-                              <h5>JavaScript</h5>
-                              <div className="progress">
-                                 <div className="progress-bar color-1" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{ width: "60%" }}>
-                                    <span>70%</span>
-                                 </div>
-                              </div>
-                              <h5>CSS</h5>
-                              <div className="progress">
-                                 <div className="progress-bar color-2" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{ width: "15%" }}>
-                                    <span>15%</span>
-                                 </div>
-                              </div>
-                              <h5>SCSS</h5>
-                              <div className="progress">
-                                 <div className="progress-bar color-3" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{ width: "5%" }}>
-                                    <span>5%</span>
-                                 </div>
-                              </div>
-                              <h5>HTML</h5>
-                              <div className="progress">
-                                 <div className="progress-bar color-4" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{ width: "10%" }}>
-                                    <span>10%</span>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-                        <div className="itemprojeto">
-                           <a target="_blank" href="https://github.com/AspenX-Community/AspenFlorest" className="btn">GitHub</a>
-                           <div className="img">
-                              <img alt="Imagem do projeto" src={ImageAspenFlorest} />
-                           </div>
-                           <div className="desc">
-                              <h4>AspenFlorest</h4>
-                              <h5>Vue</h5>
-                              <div className="progress">
-                                 <div className="progress-bar color-2" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{ width: "40%" }}>
-                                    <span>40%</span>
-                                 </div>
-                              </div>
-                              <h5>Nuxt</h5>
-                              <div className="progress">
-                                 <div className="progress-bar color-4" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{ width: "4%" }}>
-                                    <span>4%</span>
-                                 </div>
-                              </div>
-                              <h5>JavaScript</h5>
-                              <div className="progress">
-                                 <div className="progress-bar color-1" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{ width: "40%" }}>
-                                    <span>40%</span>
-                                 </div>
-                              </div>
-                              <h5>CSS</h5>
-                              <div className="progress">
-                                 <div className="progress-bar color-3" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{ width: "9%" }}>
-                                    <span>9%</span>
-                                 </div>
-                              </div>
-                              <h5>HTML</h5>
-                              <div className="progress">
-                                 <div className="progress-bar color-4" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{ width: "4%" }}>
-                                    <span>4%</span>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-
-                        <div className="itemprojeto">
-                           <a target="_blank" href="https://www.agropad.com.br/" className="btn">Site</a>
-                           <div className="img">
-                              <img alt="Imagem do projeto" src={ImageAgropad} />
-                           </div>
-                           <div className="desc">
-                              <h4>Agropad</h4>
-                              <h5>Angular</h5>
-                              <div className="progress">
-                                 <div className="progress-bar color-3" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{ width: "40%" }}>
-                                    <span>40%</span>
-                                 </div>
-                              </div>
-                              <h5>C#</h5>
-                              <div className="progress">
-                                 <div className="progress-bar color-4" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{ width: "44%" }}>
-                                    <span>44%</span>
-                                 </div>
-                              </div>
-                              <h5>CSS</h5>
-                              <div className="progress">
-                                 <div className="progress-bar color-3" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{ width: "9%" }}>
-                                    <span>9%</span>
-                                 </div>
-                              </div>
-                              <h5>HTML</h5>
-                              <div className="progress">
-                                 <div className="progress-bar color-4" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100" style={{ width: "4%" }}>
-                                    <span>4%</span>
-                                 </div>
-                              </div>
-                           </div>
-                        </div>
-
                      </div>
                   </div>
                </section>
